@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.eot');
-    src: url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.woff') format('woff'),
-         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.ttf') format('truetype'),
-         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.svg#fanwood') format('svg');
+    src: url('../bower_components/league-spartan/webfonts/leaguespartan-bold.eot');
+    src: url('../bower_components/league-spartan/webfonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/league-spartan/webfonts/leaguespartan-bold.woff') format('woff'),
+         url('../bower_components/league-spartan/webfonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../bower_components/league-spartan/webfonts/leaguespartan-bold.svg#fanwood') format('svg');
     font-weight: normal;
     font-style: normal;
 }
