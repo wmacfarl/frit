@@ -1,0 +1,104 @@
+/* 
+ * Fonts from the League of Movable Type
+ * https://www.theleagueofmoveabletype.com/
+ */
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.eot');
+    src: url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.woff') format('woff'),
+         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../bower_components/league-spartan/_webfonts/leaguespartan-bold.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot');
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.woff') format('woff'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  color:#334;
+  background:#f8f8f8;
+}
+
+p, ul {
+  font-size:20px;
+}
+
+ul {
+  padding:0 20%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'League Spartan', 'Raleway', serif;
+}
+
+h1 {
+  font-size:4em;
+}
+
+#content .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn-ol {
+  border: 1px solid #428bca;
+}
+
+.btn-white {
+  border-color: white;
+}
+
+#content h1, #content h2 {
+  text-align:center;
+  margin: 30px 0;
+}
+
+#content h1, 
+#content h2, 
+#content h3, 
+#content h4, 
+#content p {
+  padding:20px 50px;
+}
+
+h1 small {
+  color:#445;
+  font-size:60%;
+}
+
+h2 {
+  font-size:3em;
+  margin:30px 0;
+}
+
+h3 {
+  font-size:2.6em;
+}
+
+h4 {
+  font-size:2em;
+}
+
+.section {
+  padding:30px 0;
+}
+
+.center {
+  text-align:center;
+}
+
+footer {
+  text-align:center;
+  padding: 50px;
+}

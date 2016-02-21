@@ -1,0 +1,10 @@
+{
+  "name": "One Lightsaber Per Child",
+  "version": "0.0.1",
+  "dependencies": {
+    "fontawesome":      "~4.3.0",
+    "bootstrap":        "~3.2.0",
+    "jquery":           "~1.11",
+    "league-spartan":   "theleagueof/league-spartan"
+  }
+}
