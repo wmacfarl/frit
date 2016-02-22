@@ -25,7 +25,12 @@
 
       <div class="container-fluid hero">
 
-        <img style="width:100%;" src="assets/images/sabre.jpg" />
+        <div class="dissolve">
+          <img class="active" src="assets/images/sabre.jpg" />
+          <img style="display:none;" src="assets/images/kids-1.jpg" />
+          <img style="display:none;" src="assets/images/off.jpg" />
+          <img style="display:none;" src="assets/images/kids-2.jpg" />
+        </div>
 
         <h1 style="padding-top:40px;">One Lightsaber<br />Per Child</h1>
 
@@ -44,12 +49,10 @@
 
       </div>
  
-      <hr />
- 
 
       <div class="container-fluid section">
 
-        <img style="width:100%;" src="assets/images/diy.jpg" />
+        <img src="assets/images/diy.jpg" />
 
         <h2>Do It Yourself, Luke</h2>
 
@@ -72,7 +75,7 @@
  
       <br />
 
-      <img style="width:100%;" src="assets/images/pnc.jpg" />
+      <img src="assets/images/pnc.jpg" />
  
       <h2>Made in Somerville</h2>
 
@@ -89,7 +92,7 @@
       <br />
 
 
-      <img style="width:100%;" src="assets/images/wampa-wide.png" />
+      <img src="assets/images/wampa-wide.png" />
 
       <h2>Give one, Get one</h2>
  
@@ -135,6 +138,29 @@
  
     <footer>
     </footer>
+
+    <script>
+
+      (function() {
+
+        $('.dissolve').height($('.dissolve img.active').height());
+        $('.dissolve img').css('display', 'block')
+                          .css('position', 'absolute');
+
+        var count = 0;
+
+        setInterval(function(){
+
+          $('.dissolve img').removeClass('active');
+          $($('.dissolve img')[count]).addClass('active');
+          count += 1;
+          if (count > $('.dissolve img').length - 1) count = 0;
+
+        }, 5000);
+
+      })();
+
+    </script>
 
   </body>
 </html>
