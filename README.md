@@ -1,1 +1,1 @@
-Website for fundraiser for [Parts & Crafts](http://partsandcrafts.org), a Somerville kids hackerspace and school alternative. 
+Website for organizing action around Federal Realty in Somerville's Assembly Square.
