@@ -1,0 +1,13 @@
+{
+  "name": "league-spartan",
+  "homepage": "https://github.com/theleagueof/league-spartan",
+  "_release": "c350408b07",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c350408b07ca284b6c097b7194f2f14f428013f5"
+  },
+  "_source": "git://github.com/theleagueof/league-spartan.git",
+  "_target": "*",
+  "_originalSource": "theleagueof/league-spartan"
+}
